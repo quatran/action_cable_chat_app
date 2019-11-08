@@ -24,3 +24,9 @@
 /spring/*.pid
 
 .DS_Store
+
+# vim
+.swp
+
+#kde
+.directory
