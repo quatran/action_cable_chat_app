@@ -19,6 +19,17 @@
 //TESTING
 //
  
-
+/*
 //alert(message to user): dialogbox with message to user
-alert('hello, world!');
+alert('hello, world!');                             
+*/
+
+
+//function
+greeting_doubler = function(phrase)
+{
+  alert(phrase + " "+ phrase);
+}
+
+greeting_doubler('hello, world!);
+
