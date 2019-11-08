@@ -14,3 +14,11 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//
+//
+//TESTING
+//
+ 
+
+//alert(message to user): dialogbox with message to user
+alert('hello, world!');
