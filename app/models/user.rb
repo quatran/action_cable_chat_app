@@ -1,4 +1,7 @@
 class User < ApplicationRecord
+  #relationship. one user can write many messages
+  #in the class message the opposite is written
+  #belongs_to: :user
   has_many :messages
   #regular expression:
   #w: matches any word character (alpanumeric&underscore)

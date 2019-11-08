@@ -1,4 +1,5 @@
 class Message < ApplicationRecord
+  #one message has one unique user
   belongs_to :user
   validates :content, presence: true
   
